@@ -731,6 +731,10 @@ body{
     align-items: center;
 }
 
+.product-card__item:hover{
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.09);
+}
+
 .product-card__item-second{
     padding-top: 25px;
     padding-right: 23px;
