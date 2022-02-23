@@ -289,6 +289,10 @@ body{
     
 }
 
+.header__bottom-link:hover{
+    color: #76A713;
+}
+
 .header__bottom-link-active{
     color: #76A713;
 }
