@@ -310,6 +310,8 @@ body{
 
 .header-login:hover{
     box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.09);
+    color: rgba(118, 167, 19, 1);
+    background-color: rgba(251, 251, 251, 0.5);
 }
 
 .header-buttons{
@@ -473,7 +475,10 @@ body{
 
 .hero__link:hover{
     box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.1);
+    color: rgba(118, 167, 19, 1);
+    background-color: rgba(251, 251, 251, 0.5);
 }
+
 
 .hero__right{
     position: absolute;
@@ -698,4 +703,129 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #AAAAAA;    
+}
+
+.wrapper__products-card{
+    background-color: #F8F8F8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.products-card__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-card__item{
+    border: 1px solid #76A713;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card__item-second{
+    padding-top: 25px;
+    padding-right: 23px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+}
+
+.product-card__item-third{
+    padding-top: 11px;
+    padding-right: 23px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+}
+
+.product-card__item-fourth{
+    padding-top: 30px;
+    padding-right: 23px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+}
+
+.vegetables{
+    margin-bottom: 3px;
+}
+
+.fresh-fruits{
+    margin-bottom: 14px;
+}
+
+.tomato{
+    margin-bottom: 18px;
+}
+
+.product-card__item-hedding{
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;   
+    margin: 0; 
+    margin-bottom: 13px;
+}
+
+.product-card__item-text{
+    color: #888888;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 223px;    
+    margin: 0;
+    margin-bottom: 27px;
+}
+
+.product-card__buttons{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #76A713;
+    background-image: url(../images/creative-arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    cursor: pointer;
+}
+
+.product-card__buttons:hover{
+    background-color: rgba(238, 238, 238, 0.5);
+}
+
+.product-card__item-active{
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    padding-top: 23px;
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-bottom: 30px;
+}
+
+.product-card__item-hedding-active{
+    color: rgba(118, 167, 19, 1);
+}
+
+.product-card__item-link{
+    text-transform: uppercase;
+    color: white;
+    padding: 11px 17px;
+    background-color: #76A713;
+    margin: 0;
+    text-decoration: none;
+}
+
+.product-card__item-link:hover{
+    color: rgba(118, 167, 19, 1);
+    background-color: rgba(251, 251, 251, 0.5);
 }
