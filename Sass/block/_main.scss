@@ -604,9 +604,6 @@
     align-items: center;
 }
 
-.blackberry-fruit{
-    
-}
 
 .refresh, .lives, .rectangle{
     border: none;
@@ -1323,7 +1320,7 @@
     flex-direction: column;
     padding: {
         top: 77px;
-        bottom: 100px;
+        // bottom: 100px;
     }
 }
 
@@ -1569,6 +1566,10 @@
         margin-left: 6px;
     }
 
+}
+
+.subscribe-page{
+    transform: translateY(125px);
 }
 
 .subscribe{
