@@ -1115,9 +1115,12 @@ body {
   margin-right: 0;
 }
 
-.squad-fruits:hover .avocado-fruit__top {
+.squad-fruits:hover {
   -webkit-box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
+}
+
+.squad-fruits:hover .avocado-fruit__top {
   border-width: 2px;
   border-style: solid;
   border-color: #76a713;
@@ -1125,8 +1128,6 @@ body {
 }
 
 .squad-fruits:hover .kiwifruit-vitamin__top {
-  -webkit-box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
   border-width: 2px;
   border-style: solid;
   border-color: #76a713;
@@ -1134,8 +1135,6 @@ body {
 }
 
 .squad-fruits:hover .lemon__top {
-  -webkit-box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
   border-width: 2px;
   border-style: solid;
   border-color: #76a713;
@@ -1143,8 +1142,6 @@ body {
 }
 
 .squad-fruits:hover .purple-onion__top {
-  -webkit-box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
   border-width: 2px;
   border-style: solid;
   border-color: #76a713;
@@ -1152,8 +1149,6 @@ body {
 }
 
 .squad-fruits:hover .brown-almonds__top {
-  -webkit-box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
   border-width: 2px;
   border-style: solid;
   border-color: #76a713;
@@ -1161,8 +1156,6 @@ body {
 }
 
 .squad-fruits:hover .cabbage__top {
-  -webkit-box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
   border-width: 2px;
   border-style: solid;
   border-color: #76a713;
@@ -1170,8 +1163,6 @@ body {
 }
 
 .squad-fruits:hover .tomato-featured__top {
-  -webkit-box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
   border-width: 2px;
   border-style: solid;
   border-color: #76a713;
@@ -1977,6 +1968,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 77px;
+  cursor: pointer;
 }
 
 .latest-blog__hedding {
@@ -2337,6 +2329,17 @@ input[placeholder] {
 
 .footer {
   background-color: #191d28;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 26px;
 }
 
 .footer-conteiner {
@@ -2350,6 +2353,7 @@ input[placeholder] {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 225px;
+  padding-bottom: 61px;
 }
 
 .footer__left {
@@ -2584,6 +2588,10 @@ input[placeholder] {
   color: white;
 }
 
+.blog__item--right-hedding:hover {
+  color: #76A713;
+}
+
 .blog__item--right-time {
   margin: 0;
   color: #cccccc;
@@ -2716,5 +2724,18 @@ input[placeholder] {
   display: inline-block;
   width: 100%;
   height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer__copyright {
+  color: #cccccc;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  margin: 0;
+  margin-top: 26px;
 }
 /*# sourceMappingURL=style.css.map */
