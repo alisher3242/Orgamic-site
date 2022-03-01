@@ -885,6 +885,22 @@
     max-width: 585px;
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .fruits-vegetables__left{
+        background-color: rgba(118, 167, 19, 1);
+        background-image: url(../images/fruits-vegetables-1@2x.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left bottom;
+} 
+
 .fruits-vegetables__left-price, .fruits-vegetables__right-price{
     font-family: Gilroy;
     font-size: 16px;
@@ -965,6 +981,23 @@
     padding-right: 40px;
     max-width: 585px;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .fruits-vegetables__right{
+        background-color: #FF6600;
+        background-image: url(../images/fruits-vegetables-2.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left bottom;
+
+} 
 
 .featured-products{
     padding-top: 77px;
